@@ -13,14 +13,14 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitConfig {
 
-    @Value("${jsa.rabbitmq.queue.createdtype}")
+    @Value("${jsa.rabbitmq.queue.general}")
     String queueCreatedName;
     @Bean
     Queue createdQueue() {
         return new Queue(queueCreatedName, false);
     }
 
-    @Value("${jsa.rabbitmq.queue.updatedtype}")
+    /*@Value("${jsa.rabbitmq.queue.updatedtype}")
     String queueUpdatedName;
     @Bean
     Queue updatedQueue() {
@@ -32,7 +32,7 @@ public class RabbitConfig {
     @Bean
     Queue deletedQueue() {
         return new Queue(queueDeletedName, false);
-    }
+    }*/
 
     @Bean
     public MessageConverter jsonMessageConverter() {

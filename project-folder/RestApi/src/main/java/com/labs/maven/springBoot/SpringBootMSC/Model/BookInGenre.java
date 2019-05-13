@@ -8,13 +8,19 @@ public class BookInGenre {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
+    @Column(name ="mapBookId")
+    private int mapBookId;
+
+    @Column(name = "mapGenreId")
+    private int mapGenreId;
+
     @ManyToOne
     @JoinColumn(name="book_id")
-    Book book;
+    private Book book;
 
     @ManyToOne
     @JoinColumn(name="genre_id")
-    Genre genre;
+    private Genre genre;
 
     public int getId() {
         return id;
@@ -38,5 +44,21 @@ public class BookInGenre {
 
     public void setBook(Book book) {
         this.book = book;
+    }
+
+    public int getMapGenreId() {
+        return mapGenreId;
+    }
+
+    public void setMapGenreId(int mapGenreId) {
+        this.mapGenreId = mapGenreId;
+    }
+
+    public int getMapBookId() {
+        return mapBookId;
+    }
+
+    public void setMapBookId(int mapBookId) {
+        this.mapBookId = mapBookId;
     }
 }

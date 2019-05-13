@@ -1,6 +1,8 @@
 package com.labs.maven.springBoot.SpringBootMSC.Service;
 
 import com.labs.maven.springBoot.SpringBootMSC.Model.BookInGenre;
+import com.labs.maven.springBoot.SpringBootMSC.Model.Book;
+import com.labs.maven.springBoot.SpringBootMSC.Model.Genre;
 import com.labs.maven.springBoot.SpringBootMSC.Model.LoggerTable;
 import com.labs.maven.springBoot.SpringBootMSC.Repositories.BookInGenreRepository;
 import com.labs.maven.springBoot.SpringBootMSC.ServerExceptions.ItemNotFoundException;
@@ -24,6 +26,12 @@ public class BookInGenreService implements IEntityService<BookInGenre> {
 
     @Autowired
     public LoggerService loggerService;
+
+    @Autowired
+    private BookService bookService;
+
+    @Autowired
+    private GenreService genreService;
 
     @Override
     public Optional<BookInGenre> getEntityById(Integer id) {
@@ -57,7 +65,13 @@ public class BookInGenreService implements IEntityService<BookInGenre> {
 
     @Override
     public BookInGenre saveEntity(BookInGenre entity) {
-
+        Optional<Book> book = bookService.getEntityById(entity.getMapBookId());
+        Optional<Genre> genre = genreService.getEntityById(entity.getMapGenreId());
+        if(genre.get() != null && book.get()!=null)
+        {
+            entity.setBook(book.get());
+            entity.setGenre(genre.get());
+        }
         ObjectMapper serializer = new ObjectMapper();
         try {
             loggerService.addLog("BookInGenre", "Created", serializer.writeValueAsString(entity));

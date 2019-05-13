@@ -14,7 +14,7 @@ import java.util.Map;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/authors")
+@RequestMapping("/bookingenres")
 public class BookInGenreController {
 
     private BookInGenreService service;
