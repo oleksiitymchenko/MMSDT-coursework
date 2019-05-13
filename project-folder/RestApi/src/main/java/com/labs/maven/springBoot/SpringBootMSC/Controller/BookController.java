@@ -14,8 +14,8 @@ import java.util.Map;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/constructions")
-public class ConstructionController {
+@RequestMapping("/books")
+public class BookController {
 
     private BookService service;
 

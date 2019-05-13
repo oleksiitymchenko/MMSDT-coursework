@@ -57,14 +57,14 @@ public class BookService implements IEntityService<Book> {
     @Override
     public Book updateEntity(Book newBook, Integer id) {
 
-        if (newBook.getName() == null || newBook.getAddress() == null) {
+        if (newBook.getName() == null || newBook.getDescription() == null) {
             throw new InvalidInfoException("Not all required fields where filled in");
         }
         return repository.findById(id)
                 .map(constr -> {
                     constr.setName(newBook.getName());
-                    constr.setFloors(newBook.getFloors());
-                    constr.setAddress(newBook.getAddress());
+                    constr.setPrice(newBook.getPrice());
+                    constr.setDescription(newBook.getDescription());
                     ObjectMapper serializer = new ObjectMapper();
                     try {
                         loggerService.addLog("Book", "Updated", serializer.writeValueAsString(constr));

@@ -1,7 +1,7 @@
 package com.labs.maven.springBoot.SpringBootMSC.Controller;
 
-import com.labs.maven.springBoot.SpringBootMSC.Model.Author;
-import com.labs.maven.springBoot.SpringBootMSC.Service.AuthorService;
+import com.labs.maven.springBoot.SpringBootMSC.Model.BookInGenre;
+import com.labs.maven.springBoot.SpringBootMSC.Service.BookInGenreService;
 import org.apache.velocity.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -14,33 +14,43 @@ import java.util.Map;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/builders")
-public class BuilderController {
+@RequestMapping("/authors")
+public class BookInGenreController {
 
-    private AuthorService service;
+    private BookInGenreService service;
 
     @Autowired
-    public void setBuilderService(AuthorService service) {
+    public void setBuilderService(BookInGenreService service) {
         this.service = service;
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public Optional<Author> getOne(@PathVariable Integer id){
+    public Optional<BookInGenre> getOne(@PathVariable Integer id){
         return service.getEntityById(id);
     }
 
+    @RequestMapping(value = "/book/{id}", method = RequestMethod.GET)
+    public Optional<BookInGenre> getOneByBook(@PathVariable Integer id){
+        return service.getEntityByBookId(id);
+    }
+
+    @RequestMapping(value = "/genre/{id}", method = RequestMethod.GET)
+    public Optional<BookInGenre> getOneByGenre(@PathVariable Integer id){
+        return service.getEntityByGenreId(id);
+    }
+
     @RequestMapping(method = RequestMethod.GET)
-    public List<Author> getAll(){
+    public List<BookInGenre> getAll(){
         return service.getAllEntities();
     }
 
     @RequestMapping(method = RequestMethod.POST)
-    public ResponseEntity<Object> create(@RequestBody Author author){
+    public ResponseEntity<Object> create(@RequestBody BookInGenre author){
         return ResponseEntity.status(HttpStatus.OK).body(service.saveEntity(author));
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.PUT)
-    public ResponseEntity<Object> update(@RequestBody Author newAuthor, @PathVariable Integer id){
+    public ResponseEntity<Object> update(@RequestBody BookInGenre newAuthor, @PathVariable Integer id){
         return ResponseEntity.status(HttpStatus.OK).body(service.updateEntity(newAuthor, id));
     }
 

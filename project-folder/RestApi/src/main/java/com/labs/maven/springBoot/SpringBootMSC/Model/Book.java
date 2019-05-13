@@ -12,55 +12,40 @@ public class Book {
 
     @Column(name = "Name", nullable = false)
     private String Name;
-    @Column(name = "Floors", nullable = true)
-    private Integer Floors;
-    @Column(name = "Address", nullable = false)
-    private String Address;
+    @Column(name = "Price", nullable = true)
+    private Integer Price;
+    @Column(name = "Description", nullable = false)
+    private String Description;
+    @Column(name ="Author")
+    private String Author;
 
-    public Book(String name, Integer floors, String address)
+    public Set<BookInGenre> getBookInGenres() {
+        return bookInGenres;
+    }
+
+    public void setBookInGenres(Set<BookInGenre> bookInGenres) {
+        this.bookInGenres = bookInGenres;
+    }
+
+    @OneToMany(mappedBy = "book")
+    Set<BookInGenre> bookInGenres;
+
+    public String getAuthor() {
+        return Author;
+    }
+
+    public void setAuthor(String author) {
+        Author = author;
+    }
+
+    public Book(String name, Integer price, String description)
     {
         this.Name = name;
-        this.Floors = floors;
-        this.Address = address;
+        this.Price = price;
+        this.Description = description;
     }
 
     public Book() { }
-
-    @ManyToMany(fetch = FetchType.EAGER,
-            cascade = {
-                    CascadeType.PERSIST,
-                    CascadeType.MERGE
-            })
-    @JoinTable(name = "authors",
-            joinColumns = { @JoinColumn(name = "book_id") },
-            inverseJoinColumns = { @JoinColumn(name = "author_id") })
-    private Set<Author> authors;
-
-    public Set<Genre> getGenres() {
-        return genres;
-    }
-
-    public void setGenres(Set<Genre> genres) {
-        this.genres = genres;
-    }
-
-    @ManyToMany(fetch = FetchType.EAGER,
-            cascade = {
-                    CascadeType.PERSIST,
-                    CascadeType.MERGE
-            })
-    @JoinTable(name = "genres",
-            joinColumns = { @JoinColumn(name = "book_id") },
-            inverseJoinColumns = { @JoinColumn(name = "genre_id") })
-    private Set<Genre> genres;
-
-    public Set<Author> getAuthors() {
-        return authors;
-    }
-
-    public void setAuthors(Set<Author> authors) {
-        this.authors = authors;
-    }
 
     public int getId() {
         return id;
@@ -78,12 +63,12 @@ public class Book {
         this.Name = name;
     }
 
-    public Integer getFloors() {
-        return Floors;
+    public Integer getPrice() {
+        return Price;
     }
 
-    public void setFloors(Integer floors) {
-        this.Floors = floors;
+    public void setPrice(Integer price) {
+        this.Price = price;
     }
 
     @Override
@@ -92,14 +77,14 @@ public class Book {
         Book dep = (Book)obj;
         return id == dep.id &&
                 Name.equals(dep.Name) &&
-                Floors.equals(dep.Floors);
+                Price.equals(dep.Price);
     }
 
-    public String getAddress() {
-        return Address;
+    public String getDescription() {
+        return Description;
     }
 
-    public void setAddress(String address) {
-        this.Address = address;
+    public void setDescription(String description) {
+        this.Description = description;
     }
 }

@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20a222be-ffeb-4b57-a9f4-89329af23fda" name="Default Changelist" comment="" />
+    <list default="true" id="20a222be-ffeb-4b57-a9f4-89329af23fda" name="Default Changelist" comment="12312312312321312">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/GenreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/BookInGenre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/BookInGenreRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Configuration/CustomSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Configuration/HelloWorldConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Configuration/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Configuration/SecurityWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Configuration/SpringMvcInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Controller/HelloWorldController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdditionalApi/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/AdditionalApi/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/BuilderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/BookInGenreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/ConstructionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Messaging/Subscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Messaging/Subscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/AuthorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/BookInGenreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/GenreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/GenreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/RestApi/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration-server/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/configuration-server/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-ui/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-ui/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-ui/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-ui/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-ui/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/mvnw.cmd" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/configuration-server/target/" />
     <ignored path="$PROJECT_DIR$/eureka-client-lab-2/target/" />
@@ -93,37 +126,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="21" />
-          <entry key="java" value="1100" />
-          <entry key="properties" value="47" />
+          <entry key="dummy" value="64" />
+          <entry key="java" value="1791" />
+          <entry key="properties" value="73" />
           <entry key="txt" value="22" />
-          <entry key="xml" value="39" />
+          <entry key="xml" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1100" />
-          <entry key="PLAIN_TEXT" value="43" />
-          <entry key="Properties" value="47" />
-          <entry key="XML" value="39" />
+          <entry key="JAVA" value="1791" />
+          <entry key="PLAIN_TEXT" value="86" />
+          <entry key="Properties" value="73" />
+          <entry key="XML" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="25" />
+          <entry key="java" value="53" />
           <entry key="mvnw" value="2" />
-          <entry key="properties" value="2" />
+          <entry key="properties" value="5" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="2" />
-          <entry key="JAVA" value="25" />
-          <entry key="Properties" value="2" />
+          <entry key="JAVA" value="53" />
+          <entry key="Properties" value="5" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -131,10 +164,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/AuthorRepository.java">
+        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/BookInGenreService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="536">
+              <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,39 +176,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/LoggerService.java">
+        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/GenreService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+            <state relative-caret-position="197">
+              <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#1440#1441#0" expanded="true" />
-                <element signature="e#1481#1482#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/IEntityService.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/BookInGenreController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/AuthorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+            <state relative-caret-position="309">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,10 +200,94 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/TestController.java">
+        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/BookService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="32" column="9" selection-start-line="30" selection-start-column="32" selection-end-line="32" selection-end-column="9" />
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/SpringBootMscApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding>
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/BookInGenre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Genre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/BookInGenreRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,69 +307,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/GenreRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/LoggerTableRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/GenreService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/BookService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#1209#1210#0" expanded="true" />
-                <element signature="e#1285#1286#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -279,21 +323,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/javalabs/demo/DemoApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-client-lab-2/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/configuration-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/eureka-client-lab-2/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/configuration-server/config/eureka-client.properties" />
-        <option value="$PROJECT_DIR$/logger/src/main/java/com/labs/logger/DAL/sad.java" />
-        <option value="$PROJECT_DIR$/logger/src/main/java/com/labs/logger/DAL/Repositories/ConstructionRepository.java" />
-        <option value="$PROJECT_DIR$/Java-spring-cloud-master/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/LoggerTableRepository.java" />
-        <option value="$PROJECT_DIR$/Java-spring-cloud-master/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/ConstructionRepository.java" />
-        <option value="$PROJECT_DIR$/Java-spring-cloud-master/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Builder.java" />
-        <option value="$PROJECT_DIR$/Java-spring-cloud-master/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Construction.java" />
-        <option value="$PROJECT_DIR$/logger/src/main/java/com/labs/logger/DAL/Models/LoggerTable.java" />
-        <option value="$PROJECT_DIR$/logger/src/main/java/com/labs/logger/DAL/Repositories/LoggerTableRepository.java" />
-        <option value="$PROJECT_DIR$/Java-spring-cloud-master/src/main/java/com/labs/maven/springBoot/SpringBootMSC/SpringBootMscApplication.java" />
-        <option value="$PROJECT_DIR$/Java-spring-cloud-master/pom.xml" />
         <option value="$PROJECT_DIR$/logger/pom.xml" />
         <option value="$PROJECT_DIR$/Java-spring-cloud-master/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Messaging/Producer.java" />
         <option value="$PROJECT_DIR$/Java-spring-cloud-master/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Messaging/RabbitConfig.java" />
@@ -308,9 +337,7 @@
         <option value="$PROJECT_DIR$/RabbitMqLogger/src/main/java/com/labs/logger/DAL/Models/LoggerTable.java" />
         <option value="$PROJECT_DIR$/RabbitMqLogger/docker/entry.sh" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Messaging/Subscriber.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/RestApi/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/AdditionalApi/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Builder.java" />
         <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/BuilderService.java" />
@@ -319,17 +346,34 @@
         <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/ConstructionRepository.java" />
         <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/ConstructionService.java" />
         <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/LoggerTable.java" />
-        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Author.java" />
-        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Book.java" />
-        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Genre.java" />
         <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/GenreRepository.java" />
         <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/BookRepository.java" />
         <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/AuthorRepository.java" />
         <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/LoggerService.java" />
         <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/TestController.java" />
-        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/AuthorService.java" />
         <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/BookService.java" />
+        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/AuthorController.java" />
+        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/BookController.java" />
+        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/GenreController.java" />
+        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Author.java" />
+        <option value="$PROJECT_DIR$/RestApi/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Messaging/Subscriber.java" />
+        <option value="$PROJECT_DIR$/eureka-client-ui/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eureka-client-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Configuration/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Configuration/CustomSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Configuration/SecurityWebApplicationInitializer.java" />
+        <option value="$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Controller/HelloWorldController.java" />
+        <option value="$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Configuration/HelloWorldConfiguration.java" />
+        <option value="$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Configuration/SpringMvcInitializer.java" />
+        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Book.java" />
+        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Genre.java" />
+        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/BookInGenre.java" />
+        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/AuthorService.java" />
         <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/GenreService.java" />
+        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/BookInGenreService.java" />
+        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/BookInGenreRepository.java" />
+        <option value="$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/BookInGenreController.java" />
       </list>
     </option>
   </component>
@@ -377,69 +421,7 @@
             <path>
               <item name="project-folder" type="b2602c69:ProjectViewProjectNode" />
               <item name="project-folder" type="462c0819:PsiDirectoryNode" />
-              <item name="AdditionalApi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-folder" type="462c0819:PsiDirectoryNode" />
-              <item name="AdditionalApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-folder" type="462c0819:PsiDirectoryNode" />
-              <item name="AdditionalApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-folder" type="462c0819:PsiDirectoryNode" />
-              <item name="AdditionalApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-folder" type="462c0819:PsiDirectoryNode" />
-              <item name="AdditionalApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-folder" type="462c0819:PsiDirectoryNode" />
-              <item name="AdditionalApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
-              <item name="DAL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-folder" type="462c0819:PsiDirectoryNode" />
-              <item name="AdditionalApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
-              <item name="DAL" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-folder" type="462c0819:PsiDirectoryNode" />
-              <item name="AdditionalApi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
-              <item name="DAL" type="462c0819:PsiDirectoryNode" />
-              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project-folder" type="b2602c69:ProjectViewProjectNode" />
@@ -482,7 +464,39 @@
               <item name="RestApi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootMSC" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-folder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-folder" type="462c0819:PsiDirectoryNode" />
+              <item name="RestApi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootMSC" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-folder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-folder" type="462c0819:PsiDirectoryNode" />
+              <item name="RestApi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootMSC" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-folder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-folder" type="462c0819:PsiDirectoryNode" />
+              <item name="RestApi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootMSC" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -505,7 +519,11 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.eurekaclientlab2.Configuration" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.labs.maven.springBoot.SpringBootMSC.Controller" />
       <recent name="com.labs.maven.springBoot.SpringBootMSC.Repositories" />
       <recent name="com.labs.logger.DAL.Repositories" />
       <recent name="com.labs.logger.DAL.Models" />
@@ -604,7 +622,7 @@
       <updated>1556211742931</updated>
       <workItem from="1556211752402" duration="2530000" />
       <workItem from="1556882323312" duration="23682000" />
-      <workItem from="1557668929168" duration="7423000" />
+      <workItem from="1557668929168" duration="15122000" />
     </task>
     <task id="LOCAL-00001" summary="12312312312321312">
       <created>1557674674404</created>
@@ -624,7 +642,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33635000" />
+    <option name="totallyTimeSpent" value="41334000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,8 +655,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22995462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22995462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -652,8 +671,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" visible="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.7299546" weight="0.11755233" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.7299546" weight="0.46698874" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="10" weight="0.32850242" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.29951692" />
@@ -683,105 +702,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="12312312312321312" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka-client-ui/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="101" column="50" selection-start-line="101" selection-start-column="50" selection-end-line="101" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="769" selection-start-line="769" selection-end-line="769" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/ConstructionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.7/httpclient-4.5.7.jar!/org/apache/http/impl/conn/AbstractPoolEntry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="58" column="16" lean-forward="true" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logger/src/main/java/com/labs/logger/DAL/sad.java" />
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/resources/META-INF/additional-spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/GeneratedValue.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.6.RELEASE/spring-data-commons-2.1.6.RELEASE.jar!/org/springframework/data/repository/core/support/RepositoryFactorySupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="357" lean-forward="true" selection-start-line="357" selection-end-line="357" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.6.RELEASE/spring-data-commons-2.1.6.RELEASE.jar!/org/springframework/data/repository/core/support/RepositoryComposition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="92" column="54" lean-forward="true" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.6.RELEASE/spring-data-jpa-2.1.6.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="291" selection-start-line="291" selection-end-line="291" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.1.6.RELEASE/spring-orm-5.1.6.RELEASE.jar!/org/springframework/orm/jpa/SharedEntityManagerCreator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="285" column="21" lean-forward="true" selection-start-line="285" selection-start-column="21" selection-end-line="285" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1.jar!/com/sun/jersey/api/client/Client.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="364" column="5" selection-start-line="364" selection-start-column="5" selection-end-line="364" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="111" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/SpringBootMscApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.4.3/amqp-client-5.4.3.jar!/com/rabbitmq/client/impl/AMQConnection.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -793,13 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/BuilderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -816,24 +729,6 @@
             <element signature="e#1082#1083#0" expanded="true" />
             <element signature="e#903#904#0" expanded="true" />
             <element signature="e#960#961#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Messaging/RabbitConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -897,13 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AdditionalApi/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -925,16 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Messaging/Subscriber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -961,55 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RestApi/mvnw">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1024,26 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/BookRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/AuthorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1067,40 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" column="9" selection-start-line="30" selection-start-column="32" selection-end-line="32" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/AuthorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/LoggerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1119,16 +894,300 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/GenreService.java">
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        <state relative-caret-position="168">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/GenreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/ConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/EurekaClientLab2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Messaging/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Messaging/Subscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ui/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Configuration/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Configuration/CustomSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1612#1620#0" expanded="true" />
+            <element signature="e#2536#2537#0" expanded="true" />
+            <element signature="e#2592#2593#0" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
+            <element signature="e#2687#2688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Configuration/SecurityWebApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Controller/HelloWorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Configuration/HelloWorldConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-ui/src/main/java/com/example/eurekaclientlab2/Configuration/SpringMvcInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/AuthorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/BookRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/GenreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Model/BookInGenre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/SpringBootMscApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Repositories/BookInGenreRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Service/BookInGenreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestApi/src/main/java/com/labs/maven/springBoot/SpringBootMSC/Controller/BookInGenreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,9 +1,8 @@
 package com.labs.maven.springBoot.SpringBootMSC.Service;
 
-import com.labs.maven.springBoot.SpringBootMSC.Model.Author;
+import com.labs.maven.springBoot.SpringBootMSC.Model.BookInGenre;
 import com.labs.maven.springBoot.SpringBootMSC.Model.LoggerTable;
-import com.labs.maven.springBoot.SpringBootMSC.Repositories.AuthorRepository;
-import com.labs.maven.springBoot.SpringBootMSC.ServerExceptions.InvalidInfoException;
+import com.labs.maven.springBoot.SpringBootMSC.Repositories.BookInGenreRepository;
 import com.labs.maven.springBoot.SpringBootMSC.ServerExceptions.ItemNotFoundException;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,12 +13,12 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class AuthorService implements IEntityService<Author> {
+public class BookInGenreService implements IEntityService<BookInGenre> {
 
-    private AuthorRepository repository;
+    private BookInGenreRepository repository;
 
     @Autowired
-    public void setBuilderRepository(AuthorRepository repository) {
+    public void setBuilderRepository(BookInGenreRepository repository) {
         this.repository = repository;
     }
 
@@ -27,8 +26,24 @@ public class AuthorService implements IEntityService<Author> {
     public LoggerService loggerService;
 
     @Override
-    public Optional<Author> getEntityById(Integer id) {
-        Optional<Author> doc = repository.findById(id);
+    public Optional<BookInGenre> getEntityById(Integer id) {
+        Optional<BookInGenre> doc = repository.findById(id);
+        if (!doc.isPresent())
+            throw new ItemNotFoundException("There is no entity with such id");
+
+        return doc;
+    }
+
+    public Optional<BookInGenre> getEntityByBookId(Integer id) {
+        Optional<BookInGenre> doc = repository.findBookInGenreByBook_Id(id);
+        if (!doc.isPresent())
+            throw new ItemNotFoundException("There is no entity with such id");
+
+        return doc;
+    }
+
+    public Optional<BookInGenre> getEntityByGenreId(Integer id) {
+        Optional<BookInGenre> doc = repository.findBookInGenreByGenre_Id(id);
         if (!doc.isPresent())
             throw new ItemNotFoundException("There is no entity with such id");
 
@@ -36,42 +51,31 @@ public class AuthorService implements IEntityService<Author> {
     }
 
     @Override
-    public List<Author> getAllEntities() {
-        return (List<Author>)repository.findAll();
+    public List<BookInGenre> getAllEntities() {
+        return (List<BookInGenre>)repository.findAll();
     }
 
     @Override
-    public Author saveEntity(Author author) {
+    public BookInGenre saveEntity(BookInGenre entity) {
 
-        if (author.getFirstName() == null ||
-                author.getLastName() == null ||
-                author.getDateOfBirth() == null) {
-            throw new InvalidInfoException("Not all required fields where filled in");
-        }
         ObjectMapper serializer = new ObjectMapper();
         try {
-            loggerService.addLog("Author", "Created", serializer.writeValueAsString(author));
+            loggerService.addLog("BookInGenre", "Created", serializer.writeValueAsString(entity));
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return repository.save(author);
+        return repository.save(entity);
     }
 
     @Override
-    public Author updateEntity(Author newAuthor, Integer id) {
-        if (newAuthor.getFirstName() == null ||
-                newAuthor.getLastName() == null ||
-                newAuthor.getDateOfBirth() == null) {
-            throw new InvalidInfoException("Not all required fields where filled in");
-        } else {
+    public BookInGenre updateEntity(BookInGenre newAuthor, Integer id) {
             return repository.findById(id)
                     .map(builder -> {
-                        builder.setFirstName(newAuthor.getFirstName());
-                        builder.setLastName(newAuthor.getLastName());
-                        builder.setDateOfBirth(newAuthor.getDateOfBirth());
+                        builder.setBook(newAuthor.getBook());
+                        builder.setGenre(newAuthor.getGenre());
                         ObjectMapper serializer = new ObjectMapper();
                         try {
-                            loggerService.addLog("Author", "Updated", serializer.writeValueAsString(builder));
+                            loggerService.addLog("BookInGenre", "Updated", serializer.writeValueAsString(builder));
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
@@ -81,20 +85,19 @@ public class AuthorService implements IEntityService<Author> {
                         newAuthor.setId(id);
                         ObjectMapper serializer = new ObjectMapper();
                         try {
-                            loggerService.addLog("Author", "Updated", serializer.writeValueAsString(newAuthor));
+                            loggerService.addLog("BookInGenre", "Updated", serializer.writeValueAsString(newAuthor));
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
                         return repository.save(newAuthor);
                     });
-        }
     }
 
     @Override
     public void deleteEntity(Integer id) {
         ObjectMapper serializer = new ObjectMapper();
         try {
-            loggerService.addLog("Author", "Deleted", serializer.writeValueAsString(repository.findById(id).get()));
+            loggerService.addLog("BookInGenre", "Deleted", serializer.writeValueAsString(repository.findById(id).get()));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -104,7 +107,7 @@ public class AuthorService implements IEntityService<Author> {
 
 
 
-    private void sendLog(Author author, String queueName) {
+    private void sendLog(BookInGenre author, String queueName) {
         System.out.println("*******************");
         System.out.println("Sending message");
         LoggerTable logRecord = new LoggerTable();
@@ -113,7 +116,7 @@ public class AuthorService implements IEntityService<Author> {
 
         try {
             logRecord.setMessageText(mapper.writeValueAsString(author));
-            logRecord.setEntityName(Author.class.getName());
+            logRecord.setEntityName(BookInGenre.class.getName());
         } catch (IOException e) {
             e.printStackTrace();
         }

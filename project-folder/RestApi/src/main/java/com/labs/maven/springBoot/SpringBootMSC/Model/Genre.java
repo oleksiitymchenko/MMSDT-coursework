@@ -1,7 +1,6 @@
 package com.labs.maven.springBoot.SpringBootMSC.Model;
 
 import javax.persistence.*;
-import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -16,13 +15,8 @@ public class Genre {
     @Column(name = "Description", nullable = false)
     private String Description;
 
-    @ManyToMany(fetch = FetchType.LAZY,
-            cascade = {
-                    CascadeType.PERSIST,
-                    CascadeType.MERGE
-            },
-            mappedBy = "genre")
-    private Set<Book> Books = new HashSet<>();
+    @OneToMany(mappedBy = "genre")
+    Set<BookInGenre> bookInGenres;
 
     public Genre() { }
 
@@ -50,11 +44,11 @@ public class Genre {
         Description = description;
     }
 
-    public Set<Book> getBooks() {
-        return Books;
+    public Set<BookInGenre> getBookInGenres() {
+        return bookInGenres;
     }
 
-    public void setBooks(Set<Book> books) {
-        Books = books;
+    public void setBookInGenres(Set<BookInGenre> bookInGenres) {
+        this.bookInGenres = bookInGenres;
     }
 }

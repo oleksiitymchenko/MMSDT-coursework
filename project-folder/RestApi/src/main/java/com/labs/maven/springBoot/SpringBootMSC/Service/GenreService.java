@@ -59,7 +59,7 @@ public class GenreService implements IEntityService<Genre> {
                 .map(entity -> {
                     entity.setName(updatedEntity.getName());
                     entity.setDescription(updatedEntity.getDescription());
-                    entity.setBooks(updatedEntity.getBooks());
+                    entity.setBookInGenres(updatedEntity.getBookInGenres());
                     ObjectMapper serializer = new ObjectMapper();
                     try {
                         loggerService.addLog("Genre", "Updated", serializer.writeValueAsString(entity));
