@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-client-ui/eureka-client-lab-2.iml" filepath="$PROJECT_DIR$/eureka-client-ui/eureka-client-lab-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/AdditionalApi/logger.iml" filepath="$PROJECT_DIR$/AdditionalApi/logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client/login.iml" filepath="$PROJECT_DIR$/eureka-client/login.iml" />
     </modules>
   </component>
 </project>

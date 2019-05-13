@@ -16,22 +16,9 @@ public class TestController {
     //@Autowired
     //Producer publisher;
 
-    @RequestMapping("/send")
+    @RequestMapping("/test")
     public String sendMessage(){
         System.out.println("*******************");
-        LoggerTable logRecord = new LoggerTable();
-        logRecord.setMessageText("TESTCREATAE");
-        logRecord.setMessageType("le");
-        ObjectMapper mapper = new ObjectMapper();
-
-        //Convert object to JSON string and pretty print
-        String jsonInString = null;
-        try {
-            jsonInString = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(logRecord);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        System.out.println(jsonInString);
         //publisher.produceMsg("jsa.queue2", jsonInString);
         return "Successfully Msg Sent";
     }
