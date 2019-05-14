@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.client.RestTemplate;
 
 @Controller
-public class GenreController {
+public class GenreController {/*
     @Autowired
     private RestTemplate restTemplate;
 
@@ -22,5 +22,5 @@ public class GenreController {
                 }).getBody();
         return  response;
     }
-
+*/
 }
