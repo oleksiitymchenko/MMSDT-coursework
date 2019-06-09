@@ -9,11 +9,17 @@
     <title>Registration</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-<body style="height:100%; background-image: url('https://hdwallpaperspage.com/wall/full/247908.jpg'); background-repeat: no-repeat;">
+<body style="height:100%; ">
 <div class="container-fluid">
-    <div class="row text-light">
+    <div class="row text-dark">
 <form method="POST" action="${contextPath}/registration" class="col-4 offset-4">
-        <h1 class="display-5 text-light text-center">REGISTRATION</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        <h1 class="display-5 text-dark text-center">REGISTRATION</h1>
 
         <div class="form-group ${error != null ? 'has-error' : ''}">
             <label for="username">Input username:</label>
@@ -32,7 +38,7 @@
                 </select>
             </div>
             <br>
-            <button class="btn btn-lg btn-outline-light btn-block" type="submit">Sign in</button>
+            <button class="btn btn-lg btn-outline-dark btn-block" type="submit">Sign in</button>
         </div>
     </form>
     </div>

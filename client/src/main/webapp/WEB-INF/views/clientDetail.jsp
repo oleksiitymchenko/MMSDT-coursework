@@ -5,30 +5,39 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Book</title>
+    <title>Client</title>
 </head>
 <jsp:include page="menu.jsp" />
-<body class="text-light" style="background-image: url('https://hdwallpaperspage.com/wall/full/247908.jpg');">
+<body class="text-dark" style="">
 
 <div class="row justify-content-center">
-    <h1>Book Info</h1>
+    <h1>Client Info</h1>
 </div>
 <div class="card mx-auto card-width bg-transparent">
-    <form method="POST" action="/books/${book.id}">
-        <div class="card-heading p-3"><h4>Game id : ${book.id}</h4></div>
-        <div class="card-heading p-3">
-            name: ${book.title} <br>
-            <input class="form-control"
-                   placeholder="${book.title}"
-                   name="title"/>
-        </div>
-        <div class="card-heading p-3">
-            year: ${book.year} <br> <input class="form-control"
-                                                   name="year"
-                                                   placeholder="${book.year}"
-        />
+    <form method="POST" action="/clients/${client.id}">
+    <div class="card-heading p-3"><h4>Client id : ${client.id}</h4></div>
+    <div class="card-heading p-3">
+        Name: ${client.name} <br>
+        <input class="form-control"
+               placeholder="${client.name}"
+               name="name"/>
+    </div>
+    <div class="card-heading p-3">
+        Surname: ${client.surname} <br> <input class="form-control"
+                                               name="surname"
+                                                 placeholder="${client.surname}"
+                                                 />
+    </div>
+    <div class="card-heading p-3">
+        Email : ${client.email}$
+        <br>
+        <input class="form-control"
+               name="email"
+               placeholder="${client.email}"
+               />
+    </div>
         <div class="card-heading p-5 mx-auto" style="max-width: 70px">
-            <button type="submit" class="btn btn-outline-light" >Update</button>
+            <button type="submit" class="btn btn-dark" href="/customers/update/${client.id}">Update</button>
         </div>
     </form>
 </div>

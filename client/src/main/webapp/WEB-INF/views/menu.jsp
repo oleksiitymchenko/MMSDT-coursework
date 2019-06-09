@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Book store</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@
               <form class="form-inline mt-md-0">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                <a class="btn btn-outline-light my-2 my-sm-0"  href="/">Logout</a>
+                <a class="btn btn-dark my-1 my-sm-0"  href="/" style="margin-top: 12px !important;">Logout</a>
                 </li>
               </ul>
               </form>

@@ -10,10 +10,10 @@
 <jsp:include page="menu.jsp" />
 <body>
 
-<div style="height:100%; background-image: url('https://hdwallpaperspage.com/wall/full/247908.jpg'); background-repeat: no-repeat;">
+<div style="height:100%;">
     <div class="my-2">
-     <h3 class="text-center display-4 mb-3 text-light">Genres</h3>
-    <button type="button" class="btn btn-outline-success btn-lg col-2 offset-5 mb-2" data-toggle="modal" data-target="#exampleModalCenter">Create new</button>
+     <h3 class="text-center display-4 mb-3 text-dark">Genres</h3>
+    <button type="button" class="btn btn-success btn-lg col-2 offset-5 mb-2" data-toggle="modal" data-target="#exampleModalCenter">Create new</button>
     </div>
 
  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -34,15 +34,15 @@
    </div>
 
      <div class="modal-footer">
-      <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
-      <button class="btn btn-outline-success"  type="submit">Add</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button class="btn btn-success"  type="submit">Add</button>
     </div>
     </form>
    </div>
   </div>
  </div>
 
- <table class="table table-striped table-dark">
+ <table class="table table-striped table-light">
   <thead class="thead-dark">
   <tr class="text-uppercase text-center">
    <th scope="col">Id</th>
@@ -57,8 +57,8 @@
     <td>${genre.title}</td>
     <td class="w-25">
      <div>
-         <button type="button" class="btn btn-outline-warning" onclick="window.location.href='/genres/${genre.id}'" style="margin-right: 10px">Detail</button>
-         <button type="button" class="btn btn-outline-danger" onclick="window.location.href='/genres/delete/${genre.id}'" >Delete</button>
+         <button type="button" class="btn btn-warning" onclick="window.location.href='/genres/${genre.id}'" style="margin-right: 10px">Detail</button>
+         <button type="button" class="btn btn-danger" onclick="window.location.href='/genres/delete/${genre.id}'" >Delete</button>
      </div>
     </td>
    </tr>
