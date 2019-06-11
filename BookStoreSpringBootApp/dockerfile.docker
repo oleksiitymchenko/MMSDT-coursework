@@ -1,0 +1,3 @@
+FROM openjdk:8-jdk-alpine
+EXPOSE 3456
+CMD ["java","-jar","/usr/src/BookStoreSpringBootApp/target/GameStoreSpringBootApp.jar"]

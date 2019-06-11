@@ -1,0 +1,84 @@
+version: '3'
+
+services:
+        eureka-server:
+                container_name: eurekaserver
+                build:
+                        context: ./EurekaServer
+                        dockerfile: dockerfile.docker
+                volumes:
+                        - ./EurekaServer:/usr/src/EurekaServer
+                networks:
+                        - default
+                ports:
+                        - "8761:8761"
+                        
+        spring-boot-msc:
+                depends_on:
+                        - db
+                        - rabbit-mq
+                        - eureka-server
+                container_name: springapp
+                build:
+                        context: ./BookStoreSpringBootApp
+                        dockerfile: dockerfile.docker
+                volumes:
+                        - ./BookStoreSpringBootApp:/usr/src/BookStoreSpringBootApp
+                ports:
+                - "8888:8888"
+                
+        client:
+                depends_on:
+                        - eureka-server
+                        - db
+                        - rabbit-mq
+                container_name: client
+                build:
+                        context: ./client
+                        dockerfile: dockerfile.docker
+                volumes:
+                        - ./client:/usr/src/client
+                networks:
+                        - default
+                ports:
+                  - "9000:9000"
+      
+                        
+        logger:
+                depends_on:
+                - db
+                - rabbit-mq
+                container_name: logger-app
+                build:
+                        context: ./RabbitMqLogger
+                        dockerfile: dockerfile.docker
+                volumes:
+                - ./RabbitMqLogger:/usr/src/RabbitMqLogger
+                networks:
+                - default
+                        
+        rabbit-mq:
+                image: rabbitmq:3.8.0-beta.3-management
+                hostname: rabbit-mq
+                container_name: rabbitmq
+                networks:
+                  - default
+                ports:
+                        - "15672:15672"
+                        
+        db:
+                container_name: spring-database
+                build:
+                        context: ./docker
+                        dockerfile: database.docker
+                volumes:
+                        - db_data:/var/lib/mysql
+                environment:
+                        MYSQL_ROOT_PASSWORD: secret
+                        MYSQL_DATABASE: springdb
+                ports:
+                        - "33061:3306"
+        
+volumes:
+        db_data:
+        maven_cache:
